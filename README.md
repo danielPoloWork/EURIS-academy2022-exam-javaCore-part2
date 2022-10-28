@@ -42,3 +42,13 @@ $ java -jar path/to/OldFashionPound-X.X.X.jar [expression]
 Expression must follow one of this rule:
 * Xp Ys Zd [+|-] Ap Bs Cd
 * Xp Ys Zd [*|/] K 
+
+Edit configurations -> set Program arguments
+  ```
+   "5p 17s 8d [+] 3p 4s 10d"
+   "5p 17s 8d [-] 3p 4s 10d"
+   "5p 17s 8d [-] 5p 18s 8d"
+   "5p 17s 8d [*] 2"
+   "5p 17s 8d [/] 3"
+   "18p 16s 1d [/] 15"
+```
