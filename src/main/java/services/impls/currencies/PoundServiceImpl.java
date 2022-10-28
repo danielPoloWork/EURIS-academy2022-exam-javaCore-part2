@@ -4,6 +4,7 @@ import DTOs.CurrencyDto;
 import services.CurrencyService;
 import utils.enums.PennyConversionRate;
 
+/** @author Daniel Polo 2022 **/
 public class PoundServiceImpl implements CurrencyService {
     @Override
     public Integer conversion(CurrencyDto currencyDto) {

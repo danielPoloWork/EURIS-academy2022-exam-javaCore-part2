@@ -6,6 +6,7 @@ import utils.enums.PennyConversionRate;
 import static services.impls.currencies.PoundServiceImpl.*;
 import static services.impls.currencies.ShillingServiceImpl.*;
 
+/** @author Daniel Polo 2022 **/
 public class PennyServiceImpl implements CurrencyService {
     @Override
     public Integer conversion(CurrencyDto currencyDto) {

@@ -4,10 +4,10 @@ import DTOs.CurrencyDto;
 import DTOs.ExpressionDto;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import static utils.RegExConstant.CURRENCY;
 import static utils.RegExConstant.REGEX;
 
+/** @author Daniel Polo 2022 **/
 public class RegExUtil {
     public ExpressionDto parseToDto(String args) {
         ExpressionDto expressionDto = new ExpressionDto();

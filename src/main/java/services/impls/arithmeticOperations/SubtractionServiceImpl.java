@@ -5,6 +5,7 @@ import DTOs.ExpressionDto;
 import services.SubtractionSumService;
 import static services.impls.currencies.PennyServiceImpl.*;
 
+/** @author Daniel Polo 2022 **/
 public class SubtractionServiceImpl implements SubtractionSumService {
     @Override
     public CurrencyDto calculate(ExpressionDto expressionDto) {

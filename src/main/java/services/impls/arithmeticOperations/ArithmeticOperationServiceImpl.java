@@ -8,6 +8,7 @@ import services.DivisionMultiplicationService;
 import services.SubtractionSumService;
 import utils.RegExUtil;
 
+/** @author Daniel Polo 2022 **/
 public class ArithmeticOperationServiceImpl implements ArithmeticOperationService {
 
     private final ArithmeticOperationPrint arithmeticOperationPrint;

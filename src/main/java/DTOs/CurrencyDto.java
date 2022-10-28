@@ -2,6 +2,7 @@ package DTOs;
 
 import lombok.*;
 
+/** @author Daniel Polo 2022 **/
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

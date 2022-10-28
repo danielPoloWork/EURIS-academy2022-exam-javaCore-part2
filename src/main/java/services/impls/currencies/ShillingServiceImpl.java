@@ -5,6 +5,7 @@ import services.CurrencyService;
 import utils.enums.PennyConversionRate;
 import utils.enums.ShillingConversionRate;
 
+/** @author Daniel Polo 2022 **/
 public class ShillingServiceImpl implements CurrencyService {
     @Override
     public Integer conversion(CurrencyDto currencyDto) {

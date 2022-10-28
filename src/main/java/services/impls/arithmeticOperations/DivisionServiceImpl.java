@@ -3,10 +3,9 @@ package services.impls.arithmeticOperations;
 import DTOs.CurrencyDto;
 import DTOs.ExpressionDto;
 import services.DivisionMultiplicationService;
+import static services.impls.currencies.PennyServiceImpl.*;
 
-import static services.impls.currencies.PennyServiceImpl.convertPennyIntoPoundAndShilling;
-import static services.impls.currencies.PennyServiceImpl.convertPoundAndShillingIntoPenny;
-
+/** @author Daniel Polo 2022 **/
 public class DivisionServiceImpl implements DivisionMultiplicationService {
     @Override
     public CurrencyDto calculate(ExpressionDto expressionDto) {

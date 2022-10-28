@@ -2,11 +2,9 @@ package prints;
 
 import DTOs.CurrencyDto;
 import DTOs.ExpressionDto;
-
-import java.util.Optional;
-
 import static services.impls.currencies.PennyServiceImpl.*;
 
+/** @author Daniel Polo 2022 **/
 public class ArithmeticOperationPrint {
 
     public void printSubtractionSumResult(ExpressionDto expressionDto, CurrencyDto currencyDto) {
